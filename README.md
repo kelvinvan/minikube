@@ -3,6 +3,7 @@
 This tutorial will show you how to install Minikube on Ubuntu 18.04 or 20.04.
 https://phoenixnap.com/kb/install-minikube-on-ubuntu
 
+```
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install curl
@@ -37,5 +38,5 @@ minikube delete
 minikube addons list
 minikube dashboard
 minikube dashboard --url
-
+```
 
